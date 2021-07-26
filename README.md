@@ -17,17 +17,25 @@ Veja o **Feeback** no link *Pull requests* para aber se a saída do programa est
 
 ## Saída esperada
 
-- ENTRADA: 2*2 2*4 0
+- ENTRADA: 2 * 2 2 * 4 0
 
         4
         8
         
-- ENTRADA: 0
-
-        Não mostra nenhum resultado
-        
-- ENTRADA: -1*8 211*8 9*7 0
+- ENTRADA: -1 * 8 211 * 8 9 * 7 0
 
         -8
         1688
         63
+
+- ENTRADA: 0
+
+        Não mostra nenhum resultado
+        
+- ENTRADA: 0 * 1
+
+        Não mostra nenhum resultado
+        
+- ENTRADA: 1 * 0 0
+
+        0
