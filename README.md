@@ -1,4 +1,4 @@
-# cpp-imdb-stars
+# cpp-operation-struct
 
 O [IMDB](https://www.imdb.com/) é um conhecido serviço Web que cataloga filmes e classifica em estrelas quanto a percepção de seus usuáriios.
 
