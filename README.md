@@ -1,14 +1,13 @@
 # cpp-operation-struct
 
-O [IMDB](https://www.imdb.com/) é um conhecido serviço Web que cataloga filmes e classifica em estrelas quanto a percepção de seus usuáriios.
+O programa operation-struct tem uma única estrutura:
+- **Operacao**: estrutura que representa uma operação de uma calculadora de quatro operações básicas.
 
-O programa imdb-stars tem duas estruturas (registros) bem distintas:
-* **Movie** - uma estrutura que tem três campos: idMovie (número único de identificação de um filme), title (título do filme) e year (ano de lançamento do filme);
-* **Opinions** - uma estrutura que tem dois campos: idMovie (o mesmo número único de identificação de um filme da estrutura Movie) e stars (vetor de tamanho MAX_OPINIONS com o número de estrelas de cada usuário).
+O programa deve ler operações matemáticas de dois operandos e um operador de cada vez até que o primeiro operando seja igual a zero.
 
-Escreva o código da função **calculateStars** que calcule a média de estrelas recebida para cada filme.
+Quando o primeiro operando for igual a zero, o programa deve terminar imprimindo todos os resultados das operações lidas anteriormente.
 
-Observe a saída esperada do programa.
+Observe a saída esperada para cada execução do programa.
 
 Confira se o repositório está criado em alguma das organizações GitHub:
 * [https://github.com/p7-m7-ecoi02-2021-1](https://github.com/p7-m7-ecoi02-2021-1)
@@ -18,10 +17,17 @@ Veja o **Feeback** no link *Pull requests* para aber se a saída do programa est
 
 ## Saída esperada
 
-- ENTRADA: nenhuma
+- ENTRADA: 2*2 2*4 0
 
-        1977: Star Wars - Nova Esperanca: Episodio 4 had 4.5 stars
-        1980: Star Wars - O Imperio Contra-Ataca: Episodio 5 had 4 stars
-        1983: Star Wars - O Retorno do Jedi: Episodio 6 had 4 stars
-        1994: Um sonho de liberdade had 4.5 stars
-        1994: Pulp Fiction had 4 stars
+        4
+        8
+        
+- ENTRADA: 0
+
+        Não mostra nenhum resultado
+        
+- ENTRADA: -1*8 211*8 9*7 0
+
+        -8
+        1688
+        63
